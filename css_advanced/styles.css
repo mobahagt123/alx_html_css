@@ -1,0 +1,433 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;  
+    text-align: center;
+}
+
+header, section.top-part {
+    text-align: center;
+    background-image: url("top-part.png");
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: 1450px 850px;    
+}
+
+footer {
+    color: white;
+    clear: both;
+    line-height: 45px;
+    background-color:#071629;
+    padding-bottom: 20px;
+    
+}
+
+
+#fot-logo {
+    float: left;
+    width: 350px;
+    padding-left: 200px;
+    margin: 30px;
+    padding-top: 20px;
+    
+}
+
+
+footer a {
+    display: inline-block;
+    width: 10px;
+    clear: left;  
+    border-radius: 60px;  
+}
+
+.footer-links{
+    float: right;
+    padding-right: 300px;
+    padding-top: 50px;
+}
+
+footer p {
+    clear: both;
+    line-height: 2px;
+    font-family: source-sans-pro;
+    font-size: 12px;
+    font-weight:normal;
+    opacity: 0.5;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: black;
+}
+
+.fa-twitter{
+    background: #1fb6f7;
+    color: black;
+}
+
+.fa-instagram{
+    background: #3976b6;
+    color: black;
+}
+
+div.video{
+    display: inline-block;
+    margin: 0 1%;
+    width: 15%;
+    line-height: 0;
+    align-items: left;
+}
+
+.smileimage {
+    width: 160px;
+}
+
+.stars {
+    display: flex;
+    padding-left: 20px;
+    width: 20px;
+    
+}
+
+.checked {
+    color: #C271FF;
+    width: 0px;
+    padding: 6px;
+}
+
+.unchecked {
+    opacity: 20%;
+    width: 0px;
+    padding: 6px;
+}
+
+
+.tutimage {
+    float: left;
+    width: 40px;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-right: 0;
+}
+
+.auther h5 {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    line-height: 0px; 
+    text-align: left;
+    color: #C271FF;
+    font-size: x-small;
+    font-family: 'Source Sans Pro';
+}
+
+.rating p {
+    float: right;
+    margin-top: -15px;
+    padding-right: 35px;
+    color: #C271FF;
+    
+}
+
+.videos p {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 33px;
+}
+
+.video > p {
+    font-size: 10px;
+    text-align: left;
+    opacity: 60%;
+   
+    line-height: 1;
+}
+
+.video > h4 {
+   
+    text-align: left;
+    padding-left: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.videos h3 {
+    line-height: 50px;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+}
+
+.play-logo {
+    width: 40px; 
+    position: absolute; 
+    padding-top: 25px;
+    margin-left: 55px;
+}
+
+.membership {
+    background-color: #071629;
+    color: white;
+    line-height: 90px;
+
+}
+.membership div {
+    display: inline-block;
+    color: white;
+    width: 20%;
+}
+
+.member {
+    line-height: 25px;
+}
+
+.membership h3 {
+    font-family: 'Source Sans Pro';
+    font-weight:30;
+    font-size:x-large;
+
+}
+
+.member h4 {
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+
+}
+
+.member p {
+    font-family: 'Source Sans Pro';
+    font-size: xx-small;
+    font-weight: lighter;
+    text-align: center;
+    width:59%;
+    margin-left: 20%;
+}
+
+.faq-row1 {
+    float: left;
+    width: 50%;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 230px;
+    padding-right: 200px;
+    
+}
+
+.faq-row2 {
+    float: right;
+    width: 50%;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 190px;
+    padding-right: 250px; 
+}
+
+
+.question {
+    padding-bottom: 20px;
+}
+
+
+.faq h3 {
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    font-weight:60;
+}
+
+
+.faq p {
+    font-family: 'Source Sans Pro';
+    opacity: 50%;
+}
+
+.faq h4 {
+    font-family: 'Source Sans Pro';
+
+}
+
+nav {
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+button {
+    background-color:#C271FF;
+    border: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: sans;
+}
+
+nav img {
+    width: 260px;
+    height: 65px;
+    padding: 10px 16px;
+    padding-left: 60px;
+    margin-top: 10px;
+    float: left
+}
+nav ul {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 0;
+    margin: 10px;
+
+}
+nav li a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-family: 'Source Sans Pro';
+    font-size: small;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: red;
+}
+a:link, a:visited {
+    color: white;
+}
+
+.banner {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner h1 {
+    height: 120px;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner span {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.banner-button {
+    display: block;
+    padding-top: 1px;
+    padding-bottom: 10%;
+    
+}
+
+.banner-photos h3 {
+    color: white;
+    font-family: source system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.pros {
+    display: inline-block;
+    padding: 3%;
+    line-height: 0.5;
+}
+
+.pros img {
+    width: 100px;
+}
+
+.pros h4 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+.pros p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-small;
+}
+
+#learn {
+    color:#C271FF;
+    font-weight: bold;
+
+}
+#tutor2 {
+    border-radius: 50%;
+}
+
+
+.quote{
+    background-color:#C271FF;
+    display:inline-flex;
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+.quoat-author {
+    display:inline;
+    text-align: start;
+    padding-left: 5%;
+    padding-top: 8px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+   
+} 
+
+blockquote {
+    text-align: start;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+
+.quote-photo {
+    float: left;
+    clear: both;
+    padding-top: 1%;
+}
+
+.quoat-author p {
+    line-height: 0.5px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
