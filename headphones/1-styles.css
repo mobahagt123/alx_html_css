@@ -1,0 +1,82 @@
+/* section 2*/
+
+.what-we-do {
+    
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 20px;
+      
+}
+
+.do-header {
+    width: 50%;
+    height:80px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.do-header h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.do-header p {
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: -20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.music-icons {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+     
+}
+
+.music-icons div {
+    display: inline-block;
+    padding: 20px 30px;
+
+   
+}
+
+.music-icons h4 {
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.music-icons p {
+    font-size: xx-small;
+    line-height: 1.5;
+    width: 150px;
+    margin: auto; 
+    padding-top: 10px;
+}
+
+.music-icons img {
+    width: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+   
+}
+
+.sound-frequency img {
+    width: 80px;
+    margin-left: 20px;
+  
+}
+
+@media (min-width: 600px) {
+    .do-header p {
+        font-size: x-small;
+        font-weight: bold;
+        margin-top: -20px;
+        padding: 10px 10px;
+        text-align: center;
+        
+    }
+}
